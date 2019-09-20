@@ -1,0 +1,21 @@
+
+DATA
+ - because of the sql script, I changed all the nodes with a single quotation at the end, to an asterisk
+ for example, A' is A* and B' is B* etc.
+
+REST SERVICE:
+- do not have an update method, for both Edge and Node, it is easier to delete and create when objects are this simple.
+
+ALGORITHM:
+- I used an existing library, easier than writing my own code. I do not need to test the actual algorithm.
+
+DESIGN DECISIONS
+- Graph creator I made a Singleton, it make sense to make only one instance that is also protected by not having a public constructor. If any update should
+be done, it should be in this one instance.
+- SOAP and REST endpoints share 1 service, no need to repeat for each web service.
+
+
+WHAT'S MISSING BECAUSE OF TIME CONSTRAINT
+- error handling on the frontend
+- Test coverage is not at 80%
+- Additional

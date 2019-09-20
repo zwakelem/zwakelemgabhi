@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Sep 20 04:25:04 SAST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016d-4c7c-b6a4-0000105db4a0 
+on database directory memory:/home/thina/Desktop/Discovery_Health/zwakelemgabhi/space with class loader java.net.URLClassLoader@6858e861 
+Loaded from file:/home/thina/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/home/thina/Desktop/Discovery_Health/zwakelemgabhi
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-64-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
