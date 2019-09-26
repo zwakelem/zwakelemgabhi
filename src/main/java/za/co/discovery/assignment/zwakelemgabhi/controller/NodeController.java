@@ -32,7 +32,7 @@ public class NodeController {
   }
 
   @GetMapping("ok")
-  public List<Node> getAllNodes() {
+  public List<Node> getOkMessage() {
     return "OK";
   }
 
