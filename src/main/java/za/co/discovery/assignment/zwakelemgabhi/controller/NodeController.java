@@ -31,6 +31,11 @@ public class NodeController {
     return nodeService.getAllNodes();
   }
 
+  @GetMapping("ok")
+  public List<Node> getAllNodes() {
+    return "OK";
+  }
+
   @PostMapping("create/{nodeName}")
   public Node addNode(@PathVariable String nodeName) {
     return nodeService.addNode(nodeName);
